@@ -1,0 +1,245 @@
+@import url('normalize.css');
+@import url('fuentes.css');
+
+/*--estilos generales---*/
+body{
+	background: #2d2d2d;
+	font-family:Arial,helvetica,san-serif;
+
+}
+a{
+	text-decoration: none;
+	color:#fff;}
+	a:hover{
+		/*efecto del mouse sobre el enlaze */
+		text-decoration: underline;}
+		#wrap{
+			width: 960px;
+			margin: auto;
+			clear: both;
+		}
+
+
+/*--header---*/
+
+
+/*menu*/
+
+header{
+
+  width: 100%;
+
+}
+nav{
+  margin: 20px auto;
+
+
+  max-width: 1000px;
+  width: 90%;
+}
+nav ul {
+  list-style: none;
+}
+nav > ul {
+  display: table;
+  width: 100%;
+  background: #4d78b3;
+  position: relative;
+}
+nav > ul li {
+  display: table-cell;
+
+}
+/*submenu*/
+nav > ul >li:hover >ul {
+  display: block;
+  height: 100%;
+}
+nav >ul >li >ul {
+  display: block;
+  position: absolute;
+  background: #000;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  height: 0%;
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+
+}
+
+nav >ul  li a {
+  color: #fff;
+  display: block;
+  line-height: 20px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  /*  con css3 generator.com transition all .3 seconds ease */
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+nav > ul > li> ul> li a:hover{
+  background: #5da5a2;
+}
+
+
+/*main*/
+#main{
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	float: left;
+}
+
+
+
+
+/*bienvenidos*/
+#bienvenidos{
+width: 960px;
+float: left;
+padding: 20px;
+background: background: #6bba70; /* Old browsers */
+background: -moz-linear-gradient(top, #6bba70 0%, #6bba70 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #6bba70 0%,#6bba70 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #6bba70 0%,#6bba70 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', endColorstr='#6bba70',GradientType=0 ); /* IE6-9 */;
+margin: 20px 0px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+
+#bienvenidos article h2 {
+font-family: sourcesans-light;
+color: #fff;
+font-size: 35px;
+margin-bottom: 10px;
+
+}
+#bienvenidos article{
+	color: #fff;
+	line-height: 25px;
+}
+/*contenido*/
+#contenido{
+	width: 700px;
+	float: left;
+
+}
+#contenido article{
+	float: left;
+	margin-bottom: 20px;
+
+}
+#contenido article .titulo{
+	font-size: 22px;
+	font-family: sourcesans-light;
+	color:#fff;
+
+}
+#contenido article .fecha{
+	font-size: 14px;
+	color:#1798af;
+	margin-bottom: 5px;
+
+}
+#contenido article .thumb{
+	width: 220px;
+	float: left;
+	height: 150px;
+	margin: 0px 10px 10px 0px;
+}
+#contenido article > p{
+	color: #8c8c8c;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+/*sidebar*/
+
+footer {
+	width: 100%;
+	float: left;
+	clear:both;
+	box-shadow: 0px 2px 2px #000;
+	-moz-box-shadow: 0px 2px 2px #000;
+	-webkit-box-shadow: 0px 2px 2px #000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #4d78b3;
+}
+footer section{
+	width: 440px;
+	float: left;
+	padding: 20px;
+
+}
+footer #acerca-de{
+	font-family: sourcesans-light;
+	font-size: 12px;
+	color:#8c8c8c;
+	text-align: justify;
+	line-height: 15px;
+
+}
+footer #acerca-de h3 {
+	font-family: sourcesans-light;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+footer #redes-s > div{
+	width: 220px;
+	height: 60px;
+	float: left;
+	background: #ff8000;
+	opacity: 0.7;
+
+
+}
+footer #redes-s >div a{
+	width: 220px;
+	height: 60px;
+	display: inline-block;
+}
+footer #redes-s .email{
+	background: url(../imagenes/yahoo.png)
+
+}
+footer #redes-s .youtube{
+	background: url(../imagenes/youtube.png);
+}
+footer #redes-s .twitter{
+	background: url(../imagenes/twiiter.png);
+	margin-bottom:10px;
+}
+footer #redes-s .facebook{
+	background: url(../imagenes/facebook.png);
+}
+footer #redes-s > div:hover{
+	opacity: 1;
+
+}
+#copyright{
+	float: left;
+	width: 960px;
+	margin:10px 0px;
+
+}
+#copyright p{
+	text-align: center;
+	font-size:18px;
+	color:#fff;
+	font-family:sourcesans-light;
+}

@@ -1,0 +1,6 @@
+  -rubro del sitio: Venta de productos Agricolas
+    - Nombre del sitio: Agroservicio Chavez
+            *Nombre de dominio -> www.Chavez.agro.com
+    -paleta de colores -> https://color.adobe.com/es/Chrysanthemum-color-theme-11233288/edit/?copy=true
+    -tipografía -> https://fonts.google.com/specimen/Titillium+Web
+    -Boceto de página de inicio (subir una o máximo 3 fotografías de lo hecho en papel)

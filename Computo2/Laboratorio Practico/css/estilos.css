@@ -1,0 +1,123 @@
+body{
+	background: #2d2d2d;
+	font-family:Arial,helvetica,san-serif;
+
+}
+a{
+	text-decoration: none;
+	color:#fff;}
+	a:hover{
+		/*efecto del mouse sobre el enlaze */
+		text-decoration: underline;}
+		#wrap{
+			width: 960px;
+			margin: auto;
+			clear: both;
+		}
+
+
+/*--header---*/
+
+
+/*menu*/
+
+header{
+
+  width: 100%;
+
+}
+nav{
+  margin: 20px auto;
+
+
+  max-width: 1000px;
+  width: 90%;
+}
+nav ul {
+  list-style: none;
+}
+nav > ul {
+  display: table;
+  width: 100%;
+  background: #4d78b3;
+  position: relative;
+}
+nav > ul li {
+  display: table-cell;
+
+}
+/*submenu*/
+nav > ul >li:hover >ul {
+  display: block;
+  height: 100%;
+}
+nav >ul >li >ul {
+  display: block;
+  position: absolute;
+  background: #000;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  height: 0%;
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+
+}
+
+nav >ul  li a {
+  color: #fff;
+  display: block;
+  line-height: 20px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  /*  con css3 generator.com transition all .3 seconds ease */
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+nav > ul > li> ul> li a:hover{
+  background: #5da5a2;
+}
+  /*  estilos id contenedores */
+  
+#primero {
+    background-color: cadetblue;
+    color: aliceblue;
+}
+#segundo {
+    background-color:brown;
+    color:aliceblue;
+}
+#tercero {
+    background-color: darkgoldenrod;
+    color:aliceblue;
+    -moz-column-rule: ;
+    -o-column-rule: ;
+    column-rule: ;
+}
+
+#footer {
+	background: #4d78b3;
+	color:azure;
+	padding: 30px 0 25px 0;
+}
+#footer p {
+	font-size: 15px;
+    font-weight: bold;
+}
+h2 {
+    color: azure;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+p {
+    text-align: center;
+    color:floralwhite;
+}
